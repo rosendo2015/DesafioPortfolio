@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #22212c;
+    color: #837e9f;
+}
+
+header section {
+    display: flex;
+    margin: 58px 40px 16px 40px;
+
+}
+
+.identify {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 348px;
+    height: 292px;
+    margin-left: 5px;
+}
+
+
+
+.identify h2 {
+
+    font-size: 23px;
+    line-height: 29px;
+    line-height: 100%;
+    margin-top: 25px;
+
+}
+
+.identify p {
+
+    border-top: 0;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16.34px;
+    margin-top: 15px;
+
+}
+
+
+section .identify,
+.titulo,
+.redes,
+.onix,
+.titulo-post,
+.recent-posts,
+.tecnologias,
+.experiencias,
+.educacao {
+
+    background-color: #302f3d;
+    border-radius: 20px;
+    box-shadow: 4px 4px 3px #000;
+
+}
+
+.identify img {
+
+    width: 128px;
+    border-radius: 50%;
+    margin-top: 32px;
+    border: 2px solid #00ff00;
+
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    width: 952px;
+    height: 86px;
+    margin-bottom: 31px;
+}
+
+.titulo h2 {
+    margin: 30px;
+
+}
+
+.titulo p {
+    margin: 34px 31px 34px;
+}
+
+
+.informations {
+    margin-left: 52px;
+
+    display: block;
+}
+
+.myOnix {
+    display: flex;
+    gap: 30px;
+}
+
+.onix {
+
+    width: 461px;
+    height: 186px;
+
+}
+
+.TituloOnix {
+    display: flex;
+    margin: 30px;
+    gap: 16px;
+    font-size: 16px;
+}
+
+.onix p {
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.estatisticas {
+    display: flex;
+    margin: 30px;
+}
+
+.estatisticas #javascript_img {
+    margin-left: 160px;
+}
+
+.estatisticas p {
+    margin-top: 3px;
+    margin-left: 10px;
+
+}
+
+main section {
+    display: flex;
+    margin-top: 26px;
+
+}
+
+main section .redes {
+    width: 348px;
+    height: 348px;
+    margin-top: 19px;
+    margin-left: 40px;
+}
+
+.redes-text {
+
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.redes-text .item {
+    margin-top: 12px;
+}
+
+.redes-text .item span {
+    font-size: 13px;
+    padding-left: 10px;
+    width: 35px;
+    height: 16px;
+
+}
+
+.titulo-post {
+    display: flex;
+    width: 952px;
+    height: 86px;
+
+}
+
+.titulo-post h2 {
+    margin: 30px;
+}
+
+.redes {
+    display: flex;
+    gap: 90px;
+}
+
+.rp {
+    display: block;
+    margin: 16px 48px;
+
+}
+
+.rp .recent-posts {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    height: 201px;
+}
+
+.rp .recent-posts .foto img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.rp .recent-posts .linha123 {
+    margin-top: 0px;
+}
+
+.rp .recent-posts #linha3 {
+    margin-top: 50px;
+
+}
+
+.rp .recent-posts .linha4 {
+    font-size: 14px;
+    margin-top: 146px;
+    margin-left: -610px;
+    display: flex;
+    gap: 50px;
+}
+
+.tecnologias {
+    margin: 30px 40px;
+    width: 348px;
+    height: 208px;
+}
+
+.tecnologias h2 {
+    margin: 30px 20px 0;
+    
+    font-size: 20px;
+}
+
+.lista {
+    display: flex;
+    margin: 20px 30px 30px 30px;
+   
+}
+
+.campo {
+    background-color: #cb92b1;
+    color: #000;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #cb92b1;
+    border-radius: 30px;
+    cursor: pointer;
+
+    width: 86px;
+    height: 24px;
+
+
+    text-align: center;
+
+
+}
+
+section .experiencias {
+    margin-left: 40px;
+    width: 348px;
+    height: 349px;
+}
+
+section .educacao {
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 348px;
+    height: 352px;
+}
+.educacao h2, .experiencias h2{
+font-size: 20px;
+margin-top: 30px;
+margin-left: 20px;
+}
+.educacao .texto-exp, .experiencias .texto-exp{
+    width: 175px;
+    height: 243px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.educacao .texto-exp ul li, .experiencias .texto-exp ul li{
+    margin-bottom: 12px;
+}
+
+.educacao .texto-exp ul li span, .experiencias .texto-exp ul li span{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.educacao .texto-exp ul li p, .experiencias .texto-exp ul li p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+}
+footer{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;    
+    text-align: center;
+}
+
+.footer p i{
+    color: #cb92b1;
+    font-size: 20px;
+    padding: 5px;
+}
