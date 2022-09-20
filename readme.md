@@ -1,4 +1,4 @@
-# Desafio do Portfoli da Rocktseat
+# Desafio do Portfoli da Rocketseat
 
 ![preview](./.github/preview.png)
 
