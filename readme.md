@@ -1,6 +1,6 @@
 # Desafio do Portfoli da Rocketseat (Atualizado com versão mobile)
 
-![preview](./.github/preview.jpg)
+![preview](./github/preview.jpg)
 
 > Trilha Discover
 Projeto construído do primeiro desafio da Rocketseat.
