@@ -1,0 +1,238 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+    --bg-techs-hover: #905f7a;
+    --photo-perfil: #00FF00;
+}
+
+body {
+    
+    width: 100%;
+    background: var(--body-bg-color);
+    color: var(--text-color);
+    font-family: Merriweather Sans, sans-serif;
+    font-size: 1.6rem;
+}
+
+body,
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.container{
+        
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+
+.identify {
+    text-align: center;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.identify:hover,
+.infos .titulo:hover,
+.onix:hover,
+.card-redes:hover,
+.posts:hover,
+.recent-posts:hover,
+.tecnologias:hover,
+.experiencias:hover,
+.educacao:hover {
+    scale: 1.03;
+    cursor: pointer;
+}
+.tecnologias button:hover{
+    background-color: var(--bg-techs-hover);
+    color: var(--photo-perfil);
+}
+
+.identify img {
+    border-radius: 50%;
+    border: 2px solid var(--photo-perfil);
+}
+
+.infos .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.7s;
+}
+
+.identify,
+.infos .titulo,
+.onix,
+.card-redes,
+.posts,
+.recent-posts,
+.tecnologias,
+.experiencias,
+.educacao {
+    transition: 0.7s;
+    margin: 1rem;
+    padding: 4rem;
+    background: var(--bg-cards);
+    border-radius: 2rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.identify h2 {
+    margin: 3rem 0 1rem;
+}
+
+.identify p {
+    margin-bottom: 4.9rem;
+}
+
+.onix p {
+    margin-top: 2.2rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.myOnix .onix .linha .estatisticas {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 4.9rem;
+}
+
+.myOnix .onix .linha .estatisticas .info_estat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.myOnix .onix .linha .estatisticas .info_estat span {
+    display: flex;
+    gap: 0.8rem;
+
+}
+
+.js_info {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.tituloOnix {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1.6rem;
+}
+
+.card-redes {
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-redes .item {
+    
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.card-redes .item a {
+
+    text-decoration: none;
+    color: var(--text-color);
+    margin-left: 2.0rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.card-redes{
+    width: 97%;
+}
+.card-redes a:hover{
+    scale: 1.1;
+}
+.recent-posts-container{
+    
+    width: 100%;
+}
+.recent-posts .foto {
+    text-align: center;
+}
+
+.recent-posts .foto img {
+    border-radius: 50%;
+}
+
+.recent-posts .linhas123 {
+    margin: 3.0rem 0;
+}
+
+#linha3 {
+    margin: 4.8rem 0;
+}
+
+.linha4 {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.tecnologias h2,
+.experiencias h2,
+.educacao h2 {
+    margin-bottom: 2.0rem;
+    font-weight: 700;
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+}
+
+.tecnologias .lista {
+    border: solid;
+    text-align: center;
+}
+
+.tecnologias button {
+    width: 24%;
+    height: 10%;
+    background-color: var(--bg-techs);
+    border: none;
+    padding: 0.6rem;
+    border-radius: 9999px;
+    font-weight: 700;
+    font-size: 60%;
+    line-height: 1.3rem;
+    margin: 1rem;
+    cursor: pointer;
+transition: 0.7s;
+}
+footer{
+    height: 50px;
+}
+footer i{
+    color: var(--bg-techs);
+    font-size: 30px;
+    margin: 0 10px;
+    transition: 0.7s;
+}
+i:hover{
+    scale: 1.5;
+    color: rgba(239, 7, 7, 0.427);
+}
+
+

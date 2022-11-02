@@ -1,0 +1,157 @@
+/*Todas as demais mídias*/
+/*Config para pequenas telas
+pequenas telas
+@media screen and (max-width: 600px){}
+*/
+@media screen and (min-widht: 600px) and (max-width: 768px) {
+
+    .row-identify,
+    .wrapper-row-two,
+    .wrapper-four {
+
+        display: flex;
+        justify-content: center;
+        min-width: 100%;
+    }
+
+
+    .tecnologias {
+        width: 98%;
+    }
+
+    .tecnologias button {
+        width: 15.6rem;
+        height: 3.4rem;
+        font-size: 15px;
+    }
+}
+
+/*tablets*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .row-identify,
+    .wrapper-row-two,
+    .wrapper-four {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .card-redes {
+        width: 65%;
+    }
+
+    .recent-posts-container {
+
+        width: 100%;
+    }
+
+    .tecnologias {
+        width: 98%;
+    }
+
+    .tecnologias button {
+
+        width: 15.6rem;
+        height: 3.4rem;
+        font-size: 15px;
+    }
+
+    .experiencias,
+    .educacao {
+        width: 100%;       
+    }
+}
+
+/*Descktop*/
+@media screen and (min-width: 991px) and (max-width: 1399px) {
+    .row-identify {
+        display: flex;
+    }
+
+    .identify,
+    .card-redes {
+        width: 35%;
+    }
+
+    .wrapper-row-two {
+        display: flex;
+    }
+
+    .infos,
+    .recent-posts-container {
+        width: 65%;
+    }
+
+    .myOnix {
+
+        display: flex;
+    }
+
+    .onix {
+        min-width: 40%;
+    }
+
+    .tecnologias,
+    .experiencias,
+    .educacao {
+        width: 35%;
+    }
+
+    .tecnologias button {
+        width: 80%;
+        font-size: 80%;
+    }
+
+}
+
+/*Grandes telas*/
+@media screen and (min-width: 1400px) {
+    .row-identify {
+        display: flex;
+    }
+
+    .identify,
+    .card-redes {
+        width: 35%;
+    }
+
+    .wrapper-row-two {
+        display: flex;
+    }
+
+    .infos,
+    .recent-posts-container {
+        width: 65%;
+    }
+    .recent-posts-container .recent-posts{
+        display: flex;
+        align-items: center;
+        height: 215px;
+        gap: 45px;
+    }
+    .recent-posts-container .recent-posts .linha4{
+        
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        margin-bottom: 10px;      
+    }
+
+    .myOnix {
+
+        display: flex;
+    }
+
+    .onix {
+        min-width: 40%;
+    }
+
+    .tecnologias,
+    .experiencias,
+    .educacao {
+        width: 35%;
+    }
+
+}
