@@ -1,4 +1,5 @@
-# Desafio do Portfoli da Rocketseat (Atualizado com versão mobile)
+# Desafio do Portfoli da Rocketseat
+##(Atualizado com versão mobile)
 
 ![preview](./github/preview.jpg)
 
